@@ -196,7 +196,7 @@
 }
 
 
-/* FEUNMAN */
+/* FEYNMAN */
 
 
 .feynman {
@@ -244,11 +244,14 @@
 }
 
 
+/* KAUFMAN */
+
+
 .kaufman {
   position : relative;
   overflow: hidden;
   padding: 90px 0;
-  background-color: #1f1f1f ;
+  background-color: #1f1f1f;
   color: #fff;
 }
 
@@ -270,13 +273,6 @@
   z-index: 0;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-}
-
-
-
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -286,6 +282,9 @@
   margin-top: 80px;
   z-index: 1;
 }
+
+
+/* FOOTER */
 
 
 .footer {
