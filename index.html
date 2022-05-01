@@ -11,14 +11,14 @@
   <div class="page">
     <header class="header">
 
-      <div class="logo logo_place_header"></div>
+      <a class="logo logo_place_header"><img src="images/logo_place_header.svg" alt="Логотип Яндекс Практикума" /></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать </a>
       </p>
 
-      <img src="./images/header-image.png" alt="Мальчик получил двойку" class="header__main-illustration">
+      <img src="./images/header-image.png" alt="Мальчик получил двойку" class="header__main-illustration" />
 
       <div class="header__square-pic"></div>
       
@@ -27,7 +27,7 @@
     <main class="content">
 
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
 
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
 
@@ -37,13 +37,13 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
 
-        </div>
+        </article>
       </section>
 
       <section class="digits">
 
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -138,7 +138,7 @@
           </li>
         </ul>
 
-        <img src="./images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle">
+        <img src="./images/kaufman-triangle.svg" alt="Синий треугольник" class="kaufman__triangle" />
         
 
       </section>
@@ -147,25 +147,29 @@
     <footer class="footer">
 
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&#169; Раздорский Василий</p>
         </div>
-        <div class="footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link">Главная</a>
-            <a href="#" class="footer__column-link">Концепция</a>
-            <a href="#" class="footer__column-link">Наставники</a>
-          </div>
+          <nav>
+            <ul class="footer__column-links">
+              <li><a href="#" class="footer__column-link">Главная</a></li>
+              <li><a href="#" class="footer__column-link">Концепция</a></li>
+              <li><a href="#" class="footer__column-link">Наставники</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Логотип Фейсбук" class="footer__social-icon">Facebook</a>
-            <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Логотип Вконтаке" class="footer__social-icon">ВКонтакте</a>
-            <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Логотип Инстаграм" class="footer__social-icon">Insragram</a>
-          </div>
+          <nav>
+            <ul class="footer__column-links">
+              <li><a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Логотип Фейсбук" class="footer__social-icon">Facebook</a></li>
+              <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Логотип Вконтаке" class="footer__social-icon">ВКонтакте</a></li>
+              <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Логотип Инстаграм" class="footer__social-icon">Instagram</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
 
