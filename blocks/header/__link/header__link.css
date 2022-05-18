@@ -1,8 +1,14 @@
 .header__link {
     color: #2f80ed;
     text-decoration: none;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.header__link:hover {
+  opacity: .8;
 }
   
-  .header__link::after {
+.header__link::after {
     content: "\2192";
 }
