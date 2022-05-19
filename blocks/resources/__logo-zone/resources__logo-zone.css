@@ -1,7 +1,7 @@
-.two-columns {
-    width: 80%;
+.resources__logo-zone {
+    width: 1100px;
     margin: 0 auto;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-  }
+}
